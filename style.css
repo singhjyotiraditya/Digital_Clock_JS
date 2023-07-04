@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+      background-color: black;
+      color: white;
+      font-size: xx-large;
+      display: flex;
+      font-family: "Poppins";
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    h1, h2 {
+      color: white;
+      text-align: center;
+    }
+
+    .buttons-container {
+      margin-top: 10px;
+    }
+
+    button {
+      background-color: white;
+      color: black;
+      font-size:medium;
+      padding: 10px 20px;
+      margin-right: 10px;
+      font-family: "Poppins";
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button#startBtn {
+  font-weight: bold;
+}
+
+button#stopBtn {
+  font-weight: bold;
+}
+
+.heading {
+  margin-top: 0;
+}
